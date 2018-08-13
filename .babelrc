@@ -1,0 +1,19 @@
+{
+  "env": {
+    "esm": {
+      "presets": [
+        ["@babel/preset-env", {
+          "modules": false,
+          "useBuiltIns": "usage"
+        }]
+      ]
+    },
+    "cjs": {
+      "presets": [
+        ["@babel/preset-env", {
+          "useBuiltIns": "usage"
+        }]
+      ]    
+    }
+  }
+}
